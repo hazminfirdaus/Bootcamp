@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800;900&display=swap");
+@import "_variables";
+@import "nav";
+@import "header";
+@import "intro";
+@import "skills";
+@import "portfolio";
+@import "about";
+@import "contact";
+@import "footer";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: $color-white;
+}

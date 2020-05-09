@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+
+        <form class="form">
+
+            <div class="form-field">
+                <label class="form-label">Name</label>
+                <input type="text" value="" class="form-input">
+            </div>
+            
+            <div class="form-field">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input">
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Choose Batch</label>
+                    
+                <select id="batch" class="form-select">
+                    <option value="winter" selected>Winter 2020</option>
+                    <option value="spring">Spring 2020</option>
+                    <option value="autumn">Autumn 2020</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Did you complete all the exercises from Week 1?</label>
+
+                <input type="radio" value="yes" name="exercises">
+                Yes
+
+                <input type="radio" value="no" name="exercises">
+                No
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Choose your favourite exercises</label>
+
+                <input type="checkbox" name="selectors" value="selectors">
+                CSS selectors
+                <br>
+
+                <input type="checkbox" name="book" value="book">
+                Book Page
+                <br>
+
+                <input type="checkbox" name="belfast" value="belfast">
+                Belfast International Kindergarden
+                <br>
+
+                <input type="checkbox" name="crownsnest" value="crownsnest">
+                Crownsnest Retreat
+                <br>
+
+                <input type="checkbox" name="google" value="google">
+                Google Page
+                <br>
+
+                <input type="checkbox" name="documentation" value="documentation">
+                Documentation Page
+                <br>
+
+                <input type="checkbox" name="aneta" value="aneta">
+                Aneta Webbie Personal Portfolio
+            </div>
+
+            <div class="form-field">
+                <label class="form-label">Write feeback</label>
+                <textarea rows="5" class=form-textarea"></textarea>
+            </div>
+
+            <div class="form-field">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+
+    
+</body>
+</html>

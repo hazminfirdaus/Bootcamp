@@ -1,0 +1,29 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 40%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  margin: 24px auto;
+}
+
+div:first-child {
+  background-image: url('../img/tiger.jpg');
+}
+
+div:nth-child(2) {
+  background-image: url('../img/nature/lake.jpg');
+}
+
+img {
+  display: block;
+  width: 40%;
+  height: 200px;
+  object-fit: cover;
+  margin: 24px auto;
+}

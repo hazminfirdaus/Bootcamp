@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import "variables";
+@import "icons";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  
+  width: 16rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+
+  background-color: $color-bg-primary;  
+  
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+  &__logo {
+    background-image: url('/img/vibecast-logo.svg');
+    background-size: contain;
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: -10px;
+  }
+
+  &__nav {
+    display: inline;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    line-height: 2em;
+    text-transform: uppercase;
+  } 
+
+  &__link {
+    color: $color-text-sidebar;
+    text-decoration: none;
+    
+
+    &:hover {
+      color:#cdcdcd;;
+    }
+
+  }
+
+  &__article {
+    color: white;
+  }  
+}
+
+.icon-bell {
+  color: white;
+  background-color: #2688dc;
+  font-size: 15px;
+  padding: 6px;
+  border-radius: 5px 5px 5px 5px;
+
+  &:hover {
+    color: #aaa;
+    background-color: #f0f0f0;
+  }
+
+}
+
+.podcast {
+  margin-left: 16rem;
+}
+
+.podcast-heading {
+  display: flex;
+  align-items: center;
+  
+  height: 5rem;
+  padding: 1rem 2.5rem;
+  
+  background-color: $color-bg-secondary;
+
+  &__logo {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    margin-right: 1rem;
+  }
+
+  &__title {
+    padding-bottom: 0.5rem;
+    
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__promo {
+    color: #aaa;
+  }
+}
+
+.podcast__list {
+  margin: 1rem 0 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cdcdcd;
+  margin-bottom: none;
+}
+
+.podcast__guest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.podcast__img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.podcast__number {
+  width: 5rem;
+  font-size: 3rem;
+  color: grey;
+  font-weight: 900;
+}
+
+.podcast__title {
+  font-size: 2rem;
+  flex-grow: 1;
+  text-transform: uppercase;
+
+}
+
+.podcast__date {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: grey;
+}
+
+.podcast__day {
+  width: 10rem;
+  font-size: 1rem;
+}
+
+.podcast__hour{
+  flex-grow: 1;
+}
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+
+}
+body {
+  
+    background-image: url("img/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+img {
+    padding: 20px 100px 100px 600px;
+}
+
+h1 {
+    color: rgb(196, 13, 104);
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-left: 650px;
+    text-shadow: 5px 2px #a19191;
+}
+
+p {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1em;
+    color: rgb(148, 28, 88);
+    text-shadow: 4px 2px #a19191;
+}
+.first {
+    margin-top: -500px;
+    margin-left: 100px;
+}
+
+.second {
+    margin-top: 250px;
+    margin-left: 1100px;
+}

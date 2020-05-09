@@ -1,0 +1,78 @@
+
+html, body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: "Trebuchet Ms", sans-serif;
+    color: white;
+    background-color: #444444;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+     
+h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: dodgerblue;
+    background-color: white;
+    width: 100vw;
+    }
+
+p {
+    margin-bottom: 2rem;
+    color: #d6d6d6;
+}
+
+img {
+    opacity: 0.5;
+    width: 400px;
+    
+}
+
+img:hover {
+    opacity: 1;
+}
+
+p a {
+    color: rgb(255, 245, 253, 0,5); /* 0.5 is the opacity */
+}
+
+a:hover {
+    color: white;
+}
+
+.center {               /* to center list */
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.the-text {
+    color: blue;
+}
+
+.the-text.colorized {
+    color: pink;
+    font-size: 2rem;
+}
+
+/* linked to HTML by the class="the-text" on targeted text which linked to index.js on script tag, the index.js has the theButton element */

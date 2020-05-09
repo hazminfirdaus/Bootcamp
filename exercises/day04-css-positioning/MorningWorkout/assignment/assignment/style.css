@@ -1,0 +1,56 @@
+nav a {
+    color: crimson;
+    text-decoration: none;
+
+}
+
+#about blockquote {
+    background-color: #eaeaea;
+
+}
+
+#users span {
+    font-weight: bold;
+
+}
+
+#users span:last-child {
+    color: crimson;
+}
+
+#creators a {
+    text-decoration: none;
+}
+
+#creators a:nth-of-type(1) {
+    font-family: 'Lato', sans-serif;
+
+}
+
+#creators a:nth-of-type(2) {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+
+#creators a:nth-of-type(3) {
+    font-family: 'PT Serif', sans-serif;
+    
+
+}
+
+#creators a:nth-of-type(4) {
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+
+}
+
+#cta h2 {
+    color:crimson;
+    font-family: "Lato", sans-serif;
+
+} 
+
+ul li:nth-of-type(odd) {
+    text-decoration: underline;
+} 

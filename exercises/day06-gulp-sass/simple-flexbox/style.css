@@ -1,0 +1,35 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: darkgrey;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+}
+
+main {
+    flex-grow: 1; /*stretch the v*/
+
+}
+
+footer {
+    background-color: darkslategrey;
+}
+
+nav {
+    background-color: orangered;
+}
+
+article {
+    padding: 2em;
+    background-color: white;
+    color: black;
+}

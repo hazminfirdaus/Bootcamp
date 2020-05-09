@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 48px 10%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    align-items: center;
+    width: 20%;
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 250px;
+    background-color: lightblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar__list {
+    padding-left: 0;
+}
