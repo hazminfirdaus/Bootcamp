@@ -4,30 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aneta Webbie Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    
 </head>
 
 <body>
-    <nav class=nav__bar>
-        <div class="nav__bar--left">
-            <img class="nav__bar--logo" src="../img/google.svg" alt="logo">
-        </div>
+    <nav class=navbar>
+        <img class="navbar__logo" src="../img/google.svg" alt="logo">
+        <img class="navbar__menu" src="../img/menu.png" alt="menu">
 
-        <div class="nav__bar--right">
-            <a class="nav__bar--link" href="#home">home</a>
-            <a class="nav__bar--link" href="#skills">skills</a>
-            <a class="nav__bar--link" href="#portfolio">portfolio</a>
-            <a class="nav__bar--link" href="#about">about me</a>
-            <a class="nav__bar--link" href="#contact">contact</a>
+        <div class="navbar__container">
+            <a class="navbar__link" href="#header">home</a>
+            <a class="navbar__link" href="#skills">skills</a>
+            <a class="navbar__link" href="#portfolio">portfolio</a>
+            <a class="navbar__link" href="#about">about me</a>
+            <a class="navbar__link" href="#contact">contact</a>
         </div>
     </nav>
 
-    <section class="header">
+    <header id="header" class="header">
         <div class="header__bg">
             <div class="header__title">
-            <p>Hi, I am <a class="header__link" href="#about">Aneta Webbie.</a></p>
-            <p class="header__tagline">I'm a Full-stack Web Developer.</p>
-            </div>   
+            <p>
+                Hi, I am <a class="header__link" href="#about">Aneta Webbie.</a><br>
+                <span class="header__tagline">I'm a Full-stack Web Developer.</span>
+            </p>
+            </div>
+        </div>   
+        </header>
+
+    <section class="intro">
+        <div class="intro__text">
+            <p>
+                Let's work together to <strong>make your product stand out</strong>. I create beautiful and functional websites.<br> I work with my clients step by step <strong>from the idea stage until the fully functioning web appliccation</strong>.
+            </p>
+        </div> 
+
+        <div class="intro__container">
+            <div class="intro__item">
+                <div class="intro__circle"></div>
+                <h4 class="intro__title">Discover</h4>
+                <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
+            </div>
+
+            <div class="intro__item">
+                <div class="intro__circle"></div>
+                <h4 class="intro__title">Design</h4>
+                <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
+            </div>
+
+            <div class="intro__item">
+                <div class="intro__circle"></div>
+                <h4 class="intro__title">Deploy</h4>
+                <p>We prototype and deploy your product. We work together intensely to incorporate your feedback.</p>
+            </div>
+
+            <div class="intro__item">
+                <div class="intro__circle"></div>
+                <h4 class="intro__title">Be Ready</h4>
+                <p>We deploy your product and now your websites is ready to get the traction. Get out there and grow your audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="skills__heading">My Skills</h2>
+
+        <div class="skills__item">
+            <div class="skills__label">HTML</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--80"></div>
+                <div class="skills__progress--percent">80%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">CSS, Sass</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--80"></div>
+                <div class="skills__progress--percent">80%</div>
+            </div>
+        </div>
+
+                <div class="skills__item">
+            <div class="skills__label">JavaScript</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--70"></div>
+                <div class="skills__progress--percent">70%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">React</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--60"></div>
+                <div class="skills__progress--percent">60%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">jQuery</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--70"></div>
+                <div class="skills__progress--percent">70%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">PHP</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--60"></div>
+                <div class="skills__progress--percent">60%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">Laravel</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--60"></div>
+                <div class="skills__progress--percent">60%</div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+            <div class="skills__label">UX</div>
+            <div class="skills__progress--bar">
+                <div class="skills__progress skills__progress--50"></div>
+                <div class="skills__progress--percent">50%</div>
+            </div>
         </div>
     </section>
 </body>
