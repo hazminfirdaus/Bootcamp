@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#title {
+    padding-top: 10%;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+label {
+    color: darkslategrey;
+}
+
+input[type=number] {
+    margin-top: 5px;
+    padding-top: 8px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: darkseagreen;
+}
+
+button {
+    color: rgb(19, 44, 19);
+    background-color: darkseagreen;
+    padding: 5px;
+    border-radius: 5px;
+}
