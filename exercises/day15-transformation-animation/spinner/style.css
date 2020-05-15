@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 188, 188);
+  height: 100vh;
+  width: 100vw;
+}
+
+.petals {
+  background: transparent url('img/petals.jpg') center no-repeat scroll;
+  background-size: 600px;
+  height: 600px;
+  width: 600px;
+  transition: 400ms;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.animation {
+  background: transparent url('img/spinner.png') center no-repeat scroll;
+  background-size: 80px;
+  height: 80px;
+  width: 80px;
+  animation: spin 3s infinite;
+}

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  perspective: 600px;
+  perspective-origin: left;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: translateX(1000px) rotateZ(180deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.box {
+  width: 320px; 
+  height: 240px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: orange;
+  opacity: 1;
+  transition: 400ms;
+  animation: spin 3s linear infinite;
+}
+
+.on {
+  transform: rotateX(90deg);
+  /* font-size: 300%; */
+  /* background-color: lightgreen; */
+  /* transform: scale(1.2); */
+  /* transform: translateX(100px); */
+  /* opacity: 0.5; */
+}
+
+/* .box:hover {
+  background-color: lightgreen;
+} */
