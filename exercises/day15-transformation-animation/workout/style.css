@@ -32,10 +32,9 @@ body {
     font-size: 1.5rem;
     padding-left: 2rem;
     margin: 0;
+    transition: 2s;
 }
 
 .nodisplay {
   display: none;
-  text-align: center;
-  font-size: 2rem;
 }
