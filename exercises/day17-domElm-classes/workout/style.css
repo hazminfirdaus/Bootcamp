@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  border-radius: 8px 8px 8px 8px;
+}
+
+#img__unicorn {
+  width: 80px;
+  padding: 20px;
+}
+
+#img__cleverbot {
+  width: 80px;
+  flex-direction: row;
+  align-content: flex-end;
+}

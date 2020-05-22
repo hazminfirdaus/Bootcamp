@@ -118,12 +118,71 @@ const numbers = [18, 8, -24, 28, -17, 14, -10, 24, 12, -31, 19, 32, -14, -10, 13
 //   }
 // }
 
-3.
-let sum = 0;
-for (let i = 0; i <numbers.length; i +=1) {
-  sum += numbers[i];
-}
+// 3.
+// let sum= 0;
 
-const average = console.log(sum / numbers.length);
-const sumSq = console.log((sum) ** 2);
-console.log(((sum) ** 2) - (sum / numbers.length));
+// for( let i=0; i<numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// let avg = sum/numbers.length;
+// console.log(avg);
+// document.write( "<br>");
+
+// let sumSqDiff = 0;
+
+// for( let i=0; i<numbers.length; i++) {
+//   sumSqDiff += (numbers[i] - avg)**2;
+// }
+
+// console.log(sumSqDiff);
+
+// 4.
+// let sum= 0;
+
+// for( let i=0; i<numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// let avg = sum/numbers.length;
+// console.log(avg);
+// document.write( "<br>");
+
+// let sumSqDiff = 0;
+
+// for( let i=0; i<numbers.length; i++) {
+//   sumSqDiff += (numbers[i] - avg)**2;
+// }
+
+// console.log(sumSqDiff);
+
+// const variance = sumSqDiff / numbers.length;
+// console.log(variance);
+
+
+// ADVANCE LEVEL
+// 1.
+// let currentChunkLength= 1;
+// let longestChunkSoFar= 1;
+
+// for (let i = 1; i < numbers.length; i++)
+// {
+//   if (numbers[i] > numbers[i - 1])
+//   {
+//     currentChunkLength++; //4
+//   }
+//   else
+//   {
+//     if (currentChunkLength>longestChunkSoFar)
+//     {
+//       longestChunkSoFar = currentChunkLength;
+//     }
+//     currentChunkLength = 1;
+//   }
+// }
+// if( currentChunkLength>longestChunkSoFar)
+// {
+//   longestChunkSoFar= currentChunkLength;
+// }
+
+// console.log(longestChunkSoFar);
